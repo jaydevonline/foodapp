@@ -1,0 +1,259 @@
+{
+   "categories":[     
+      {
+         "id":10000,
+         "type":"all",
+         "description":"Collection of all options",
+         "serial":0
+      },
+      {
+         "id":10001,
+         "type":"veg",
+         "description":"Collection of all vegetarian options",
+         "serial":1
+      },
+      {
+         "id":10002,
+         "type":"non-veg",
+         "description":"Collection of all non-vegetarian options",
+         "serial":2
+      }
+       
+   ],
+
+   "menu_items":[
+      {
+         "id":167610,
+         "type":"veg",
+         "name":"Fruit Chaat Masala",
+         "description":"A bright, colourful and refreshing Fruit Salad with Apples, Grapes, Papayas, Sweet Potato & Anaar and topped with a Sweet and Sour dressing!",
+         "photo_url":"images/fruit_chaat_masala.png",
+         "display":"0",
+         "serial":2,
+         "quantity":1,
+         "comments_allowed":0,
+         "outlet_product_id":461833,
+         "parent_outlet_product_id":null,
+         "show_price":"0",
+         "default_price":null,
+         "price":50,
+         "sort_no":2,
+         "default_selected":0,
+         "category_id":15074,
+         "parent_product":false,
+         "attributes":[
+            {
+               "id":115,
+               "type":"veg",
+               "product_attribute_group_id":1,         
+               "display_type":3,
+               "serial":1
+            }
+         ]
+      },
+      {
+         "id":167686,
+         "type":"non-veg",
+         "name":"Peri Peri Chicken Pasta Salad",
+         "description":"A creamy Durum wheat Pasta Salad infused with Cilantro and Avocado dressing and bite-sized chunks of Peri Peri flavoured Chicken.",
+         "photo_url":"images/Peri_Peri_Chicken_Pasta_Salad.png",
+         "display":"0",
+         "serial":10,
+         "quantity":1,
+         "comments_allowed":0,
+         "outlet_product_id":463129,
+         "parent_outlet_product_id":null,
+         "show_price":"0",
+         "default_price":null,
+         "price":120,
+         "sort_no":10,
+         "default_selected":0,
+         "category_id":15075,
+         "parent_product":false,
+         "attributes":[
+            {
+               "id":1,
+               "type":"non-veg",
+               "product_attribute_group_id":1,               
+               "display_type":3,
+               "serial":2
+            }
+         ]
+      },
+      {
+         "id":166008,
+         "type":"veg",
+         "name":"Kadhai Paneer with Paranthas and Raita",
+         "description":"A heavenly combination of Paneer, Bell Peppers, Tomato, Onions and traditional Indian Spices, cooked in desi Ghee. Served with 3 Paranthas and Raita.",
+         "photo_url":"images/Kadhai_Paneer_with_Paranthas_and_Raita.png",
+         "display":"0",
+         "serial":9,
+         "quantity":1,
+         "comments_allowed":1,
+         "outlet_product_id":443686,
+         "parent_outlet_product_id":null,
+         "show_price":"0",
+         "default_price":null,
+         "price":100,
+         "sort_no":5,
+         "default_selected":0,
+         "category_id":15074,
+         "parent_product":false,
+         "attributes":[
+            {
+               "id":115,
+               "type":"veg",
+               "product_attribute_group_id":1,          
+               "display_type":3,
+               "serial":1
+            }
+         ]
+      },
+
+      {
+         "id":165515,
+         "type":"veg",
+         "name":"Makai Palak with Rotis and Raita",
+         "description":"A tasty and nutritious dish of fresh Corn kernels cooked in a rich Spinach gravy. Served with 4 Rotis and Raita.",
+         "photo_url":"images/Makai_Palak_with_Rotis_and_Raita.png",
+         "display":"0",
+         "serial":6,
+         "quantity":1,
+         "comments_allowed":0,
+         "outlet_product_id":463142,
+         "parent_outlet_product_id":null,
+         "show_price":"0",
+         "default_price":null,
+         "price":100,
+         "sort_no":6,
+         "default_selected":0,
+         "category_id":15074,
+         "parent_product":false,
+         "attributes":[
+            {
+               "id":115,
+               "type":"veg",
+               "product_attribute_group_id":1,            
+               "display_type":3,
+               "serial":1
+            }
+         ]
+      },
+      {
+         "id":164805,
+         "type":"veg",
+         "name":"Desi Thhele vaale Burgers with Chips",
+         "description":"2 Homestyle Burgers - Crispy Aaloo Tikki, Tomato & Onion slices smeared with Ketchup & Green chutney. Served with crispy Potato Chips!",
+         "photo_url":"images/Desi_Thhele_vaale_Burgers_with_Chips.png",
+         "display":"0",
+         "serial":7,
+         "quantity":1,
+         "comments_allowed":1,
+         "outlet_product_id":419831,
+         "parent_outlet_product_id":null,
+         "show_price":"0",
+         "default_price":null,
+         "price":100,
+         "sort_no":7,
+         "default_selected":0,
+         "category_id":15074,
+         "parent_product":false,
+         "attributes":[
+            {
+               "id":115,
+               "type":"veg",
+               "product_attribute_group_id":1,             
+               "display_type":3,
+               "serial":1
+            }
+         ]
+      },
+      {
+         "id":167685,
+         "type":"veg",
+         "name":"Classic Southwestern Pasta Salad with Peri Peri Mushroom and Baby Corn",
+         "description":"Classic Southwestern Pasta Salad with Durum wheat pasta and Peri Peri flavoured Mushroom and Baby Corn and loads of Veggies. Served with a creamy Avocado-Cilantro dressing.",
+         "photo_url":"images/Classic_Southwestern_ Pasta_Salad_with_Peri_Peri_Mushroom_and_Baby_Corn.png",
+         "display":"0",
+         "serial":8,
+         "quantity":1,
+         "comments_allowed":0,
+         "outlet_product_id":463121,
+         "parent_outlet_product_id":null,
+         "show_price":"0",
+         "default_price":null,
+         "price":100,
+         "sort_no":8,
+         "default_selected":0,
+         "category_id":15074,
+         "parent_product":false,
+         "attributes":[
+            {
+               "id":115,
+               "type":"veg",
+               "product_attribute_group_id":1,               
+               "display_type":3,
+               "serial":1
+            }
+         ]
+      },
+      {
+         "id":164686,
+         "type":"non-veg",
+         "name":"Ginger Chicken with Paranthas and Raita",
+         "description":"Treat your senses with some spicy and robust Ginger Chicken packed with aromatic flavours of fried Ginger, Tomatoes and Onions. Served with 3 Parathas and Raita.",
+         "photo_url":"images/Ginger_Chicken_ with_Paranthas_and_Raita.png",
+         "display":"0",
+         "serial":5,
+         "quantity":1,
+         "comments_allowed":0,
+         "outlet_product_id":414212,
+         "parent_outlet_product_id":null,
+         "show_price":"0",
+         "default_price":null,
+         "price":120,
+         "sort_no":9,
+         "default_selected":0,
+         "category_id":15075,
+         "parent_product":false,
+         "attributes":[
+            {
+               "id":1,
+               "type":"non-veg",
+               "product_attribute_group_id":1,               
+               "display_type":3,
+               "serial":2
+            }
+         ]
+      },
+      {
+         "id":165967,
+         "type":"veg",
+         "name":"Chatpata Jaljeera",
+         "description":"A popular, refreshing and cooling Lemon-based drink with Dhaniya, Pudina and Indian Spices. Perfect for a hot summer afternoon.",
+         "photo_url":"images/Chatpata_Jaljeera.png",
+         "display":"0",
+         "serial":11,
+         "quantity":1,
+         "comments_allowed":1,
+         "outlet_product_id":443645,
+         "parent_outlet_product_id":null,
+         "show_price":"0",
+         "default_price":null,
+         "price":30,
+         "sort_no":6,
+         "default_selected":0,
+         "category_id":15074,
+         "parent_product":false,
+         "attributes":[
+            {
+               "id":115,
+               "type":"veg",
+               "product_attribute_group_id":1,               
+               "display_type":3,
+               "serial":1
+            }
+         ]
+      }
+   ]
+}

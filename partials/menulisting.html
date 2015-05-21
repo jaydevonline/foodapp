@@ -1,0 +1,74 @@
+
+      <div ng-controller="menuListingController" class="container">
+        <section class="menu-category-container" >
+            <ul class="menu-categories">
+              <li data-get-menu ng-repeat="category in menuList.categories">
+                <a ng-click="filterByCategoryType(category.type,$event)" class="btn-category btn"  href="javascript:void(0)" >{{category.type}}</a>
+              </li> 
+            </ul>
+        </section>
+
+        <section class="container menu-listing-container">
+          <div class="menu-listing">
+              <ul class="menuitems"> 
+                  <li class="menu-item" data-type="{{item.type}}"  ng-repeat="item in menuList.menu_items" ng-click="get_selected_item(item)">
+                      <div class="menu-item-details"> 
+                        <img ng-src="{{ item.photo_url }}" alt="" class="image-responsive">
+                        <div class="item-type-icon">
+                          <img src="images/veg-icon.png" ng-show="item.type == 'veg'">
+                          <img src="images/non-veg-icon.png" ng-show=" item.type == 'non-veg'" >
+                        </div>
+                        <div class="item-price"> <span class="rupee-symbol">&#8377</span> {{ item.price }}</div>
+                      </div>                   
+
+                      <div class="padding10">                 
+                        <h3 class="menu-item-name"> {{item.name}} </h3>
+                        <p class="menu-item-description"> {{ item.description }} </p>               
+                      </div>                                                               
+                  </li>
+              </ul>
+          </div>
+        </section> 
+            
+        <section class="cart-module">
+          <button class="cart-toggle-button btn" ng-show="cart_items.length > 0" ng-click="visible = !visible">
+                 <span ng-show="visible">View Cart</span>
+                 <span ng-hide="visible">Hide Cart</span>
+          </button>
+          <div class="cart-container" ng-show="cart_items.length > 0" ng-class="visible ? 'slide-right' : ''">
+              <div ng-show="cart_items.length > 0" >
+                  <span class="cart-title">{{cart_items.length}} Menu Items Selected </span>
+                  <hr>
+                  <div class="cart-items">
+                      <!-- ngRepeat start: cart_item in cart_items track by $index -->
+                      <div class="cart-item" ng-repeat="cart_item in cart_items track by $index">
+                          <div class="cart-item-description">
+                              <p class="cart-item-name">{{cart_item.name}}</p>
+                              <div class="cart-item-quantity">
+                                  <span>Quantity : </span> 
+                                  <span>{{cart_item.quantity}}</span>
+                              </div>
+                              <div class="cart-item-price">
+                                  <span>Price : </span>
+                                  <span>Rs. {{cart_item.total_price}}</span>
+                              </div>
+                          </div>
+                          <div class="cart-item-action-container ">                                         
+                            <button class="btn" ng-show="cart_item.quantity > 1" ng-click="edit_quantity(-1, cart_item)"> - </button>
+                            <button class="btn" ng-click="edit_quantity(1, cart_item)"> + </button>
+                            <button class="btn" ng-click="remove_cart_item($index)"> Remove </button>                        
+                          </div>
+                      </div>
+                      <!-- ngRepeat end: cart_item in cart_items track by $index -->
+                      
+                  </div>
+                  <hr>
+                  <div class="cart-total">Total: <span class="rupee-symbol">&#8377</span> <span>{{cart_total}}</span></div>
+                  <button ng-click="checkout()" ng-show="cart_items.length > 0" class="cart-proceed-button">Proceed</i></button>
+              </div>               
+          </div>
+        </section>
+      </div>
+    </div>
+
+    

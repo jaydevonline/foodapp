@@ -1,0 +1,291 @@
+/* app css stylesheet */
+
+
+.container{
+  width:100%;
+  margin: 0 auto;
+  max-width:1366px;
+}
+
+.header{
+  background: #e97770;
+  height: 40px;
+  padding:5px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:999;
+}
+
+.header h1{
+  text-align: center;
+  margin:5px auto;
+  color : #fff;
+  font-size: 1.5em;
+}
+
+.header + div{
+  padding-top:50px;
+}
+
+.menuitems{
+  background:   #fafafa;
+  list-style-type:  none; 
+  overflow:   hidden; 
+  margin:  0;
+  padding : 0;
+}
+
+.menuitems li{
+   width:  96%;
+   margin:10px 2%;
+   display: inline-block; 
+   background:  #fff;   
+   box-shadow: 1px 1px 2px #e5e5e5;
+   -moz-box-shadow: 1px 1px 2px #e5e5e5;
+   -webkit-box-shadow: 1px 1px 2px #e5e5e5;
+   border: 1px solid rgba(171,171,171,.5);
+   vertical-align: top;
+   box-sizing:borde-box;
+   -webkit-box-sizing:border-box; 
+   -moz-box-sizing:border-box; 
+}
+
+.menuitems li:hover{
+  box-shadow: 1px 1px 3px #8CDBED,-1px -1px 3px #8CDBED;
+  -moz-box-shadow: 1px 1px 3px #8CDBED,-1px -1px 3px #8CDBED;
+  -webkit-box-shadow: 1px 1px 3px #8CDBED,-1px -1px 3px #8CDBED;
+  cursor: pointer;
+}
+
+.image-responsive{
+  width :100% !important;
+  height : auto;
+}
+
+.menu-listing-container{
+  position : relative;
+}
+
+.cart-module{
+  position: fixed;
+  z-index: 999;
+  top: 12px;
+  right: 18px;
+}
+
+.cart-toggle-button{
+  padding: 5px 15px;
+  float: right;
+  margin-bottom: 15px;
+  
+}
+
+.cart-container{
+  position: relative;
+  height: auto;
+  min-height: 200px;
+  background: #f3f3f3;
+  width: 280px;
+  border: 1px solid rgba(100, 100, 100, .4);
+  padding: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  font-size: 14px;
+  clear:right;
+}
+
+.cart-container:after{
+  position: absolute;
+  content: "";
+  top: -14px;
+  right: 42px;
+  /*
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 17px 10px;
+    border-color: transparent transparent #f7f7f7 transparent; 
+  */
+  height: 14px;
+  width:20px;
+  background: url('images/arrow.png');  
+}
+
+.cart-container.slide-right{
+  right:-320px;
+}
+
+.cart-title{
+  font-weight: bold
+}
+
+.cart-items{
+  height: auto;
+  max-height: 280px;
+  overflow-y : auto;
+}
+
+.cart-item{
+  background: #ECECDA;
+  margin-top: 5px;
+  padding: 5px 5px 0 5px;
+}
+
+.cart-item-description{
+  color:#747474;
+}
+
+.cart-item-name{
+  font-weight: bold;
+  margin:0 0 5px 0;
+}
+
+.cart-item-quantity,.cart-item-price{
+  display: inline-block;
+}
+
+.cart-item-quantity{
+  border-right: solid 1px #c3c3c3;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
+.cart-item-action-container{
+  padding: 8px 0
+}
+
+.cart-item-action-container button{
+  min-width: 50px;
+  padding: 3px 10px;
+  margin:0 5px ;
+}
+
+.cart-proceed-button{
+  margin: 5px auto;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100px;
+  height: 35px;
+  border:none;
+  color : #fff;
+  background: #299029;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+}
+
+.cart-total{
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+  padding:15px 15px 0 15px
+}
+
+.menu-item-details{
+  position: relative;
+}
+
+.item-type-icon{
+  position: absolute;
+  top: 0
+}
+
+.item-price{
+  background: none repeat scroll 0 0 rgba(0, 150, 0, 0.8);
+  bottom: 4px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 10px;
+  position: absolute;
+}
+
+.menu-item-name{
+  margin:10px 0;
+  font-size:16px;
+}
+
+.menu-item-description{
+  font-style: italic;
+}
+
+
+.menu-categories{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
+.menu-categories li{
+  display: inline-block;
+}
+
+.btn{
+  background: #3a9ee0;
+  color:#fff;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  border : none;
+}
+
+.btn:hover ,.btn.active{
+  background: #1168ab;
+}
+
+.menu-categories li a{
+  font-size: 16px;
+  padding: 6px 14px 6px 14px;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 15px 8px;
+  display: block;
+}
+
+
+.padding10{
+  padding:10px;
+}
+
+.rupee-symbol{
+  font-weight: normal;
+}
+
+
+
+@media screen and (max-width: 767px){
+  .cart-module {
+    top: 2px;
+    right: 10px;
+  }
+
+  .cart-container:after{
+    right:23px;
+  }
+
+  .cart-toggle-button{
+    width:60px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  
+  .menuitems li{
+     width:  46%;
+     margin: 10px 2%;
+     height : 365px;
+  }
+
+}
+
+
+@media screen and (min-width: 1024px){
+  .menuitems li{
+     width:  23%;
+     margin:1%; 
+     height:365px;
+  }
+
+}
