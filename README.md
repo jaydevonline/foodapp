@@ -3,8 +3,8 @@ AngularJs application
 
 This is a demo application which is built using AngulaJS. 
 
--This app is hosted at www.jaydevgajera.com/foodapp
--To run this app on local set up, this repo should be cloned in local web server.
+- This app is hosted at www.jaydevgajera.com/foodapp
+- To run this app on local set up, this repo should be cloned in local web server.
 
 
 FEATURES:
