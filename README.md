@@ -13,5 +13,5 @@ FEATURES:
 - On selecting any menu item it will directly adds the item into the cart if it is not duplicate. If it is duplicate it      increases 
   the quantity in the cart.
 - Quantity of the Items in the cart can be edited and removed.
-- This app is responsive and does not use any of the responsive grid framework so HTML markup is clean and light.
+- This app is responsive and does not use any of the responsive grid framework like Bootstrap, so HTML markup is clean and light.
 
