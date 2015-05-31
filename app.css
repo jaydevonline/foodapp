@@ -1,5 +1,12 @@
 /* app css stylesheet */
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 .container{
   width:100%;
